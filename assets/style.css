@@ -1,26 +1,124 @@
-.header{
-    text-align: left;
+/* This is the code for the main header at the top*/
+header{
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
     background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
     color: green;
-    padding: 20px;
     font-weight: bold;
     border: 2px solid green;
+    padding: 30px, 20px;
 }
 
-.navigation{
-    text-align: right;
+body{
+    margin-top: 40px;
+}
+
+/* These sections deal with the header at the top and how the links are formated */
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
     margin-right: 20px;
-    padding-right: 20px;
 }
 
-.about{
-    margin: 1;
-    padding: 10px;
+nav ul li:last-child{
+    margin-right: 0;
 }
 
-.aside{
-    flex-wrap: left;
-    text-align: left;
+nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-aside{
+    width: 70%;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.right-aside{
+    width: 25%;
+}
+
+.left-aside section{
+    margin-bottom: 20px;
+}
+
+.right-aide img{
+    width: 100%;
+    display: block;
+}
+
+.my-work img{
+    max-width: 35%;
+    height: auto;
+    transition: box-shadow 0.3;
+}
+
+.my-work img:hover{
+    box-shadow: 0 0 10px 3px rgba(255, 165, 0 ,0, 0.7);
+}
+
+.footer{
+    background-color: lightgray;
+    color: green;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    border: 2px solid green;
+    padding: 20px, 0;
+}
+
+.foot-contact{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.foot-contact li{
+    margin: 0 20px;
+}
+
+.foot-contact a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.foot-contact li a:hover{
+    text-decoration: underline;
+    color: darkmagenta;
 }
