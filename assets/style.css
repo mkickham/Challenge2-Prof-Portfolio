@@ -1,0 +1,26 @@
+.header{
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    background-color: lightgray;
+    color: green;
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid green;
+}
+
+.navigation{
+    text-align: right;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.about{
+    margin: 1;
+    padding: 10px;
+}
+
+.aside{
+    flex-wrap: left;
+    text-align: left;
+}
