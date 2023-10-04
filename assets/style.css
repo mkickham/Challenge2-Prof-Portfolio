@@ -64,10 +64,16 @@ nav ul li a:hover{
     margin-left: 0;
     text-decoration: underline;
 }
+img:hover {
+    border: yellow solid 5px;
+  }
+.content-wrap{
+    display: flex;
+}
 
 .about-me{
     text-align: left;
-    max-width: 800px;
+    flex-basis: 70%;
     margin: 0;
 }
 
@@ -75,25 +81,33 @@ nav ul li a:hover{
     width: 25%;
 }
 
+.right-aside img{
+    width: 70%;
+    display: block;
+}
+
 .left-aside section{
     margin-bottom: 20px;
 }
 
-.right-aide img{
-    width: 100%;
-    display: block;
+.img-container{
+    display: flex;
+    text-align: center;
+}
+
+.my-work,
+.my-work-two{
+    flex-basis: 50%;
 }
 
 .my-work img{
-    max-width: 30%;
-    height: auto;
-    margin: 20px;
+    width: 80%;
+    height: 300px;
 }
 
 .my-work-two img{
-    max-width: 30%;
-    height: auto;
-    margin: 10px;
+    width: 80%;
+    height: 300px;
 }
 
 .footer{
