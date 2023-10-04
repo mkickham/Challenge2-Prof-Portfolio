@@ -58,20 +58,20 @@ nav ul li a:hover{
 }
 
 .left-aside{
-    width: 70%;
+    flex: 0 0 30%;
     background-color: lightblue;
     padding: 20px;
 }
 
 .right-aside{
-    width: 25%;
+    flex: 0 0 20%;
 }
 
 .left-aside section{
     margin-bottom: 20px;
 }
 
-.right-aide img{
+.right-aside img{
     width: 100%;
     display: block;
 }
