@@ -15,6 +15,7 @@ header{
     padding: 30px, 20px;
 }
 
+/* this affects everything in the body and gives it a margin at the top*/
 body{
     margin-top: 40px;
 }
@@ -25,37 +26,44 @@ body{
     font-weight: bold;
 }
 
+/* this is affecting all my nav lists*/
 nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+/* This is making sure all of my nac links are on the same link with some space*/
 nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
 
+/* this is ensuring that my last nav link is on the proper margin */
 nav ul li:last-child{
     margin-right: 0;
 }
 
+/* this is giving my nav links at the top and bottom a static green text and bolding them*/
 nav ul li a{
     text-decoration: none;
     color: green;
     font-weight: bold;
 }
 
+/* This is giving my links at the top and bottom of the page a pink color with an underline when hovered over*/
 nav ul li a:hover{
     text-decoration: underline;
     color: darkmagenta;
 }
 
+/* this is aligning my "About Me" section text and giving it some space*/
 .container{
     text-align: center;
     padding: 20px;
 }
 
+/* this is controlling the "About Me" right under the portfolio banner at the top*/
 .about-header{
     font-weight: bolder;
     font-size: 30px;
@@ -64,52 +72,62 @@ nav ul li a:hover{
     margin-left: 0;
     text-decoration: underline;
 }
+
+/* This is giving my images a yellow border when you hover over them */
 img:hover {
     border: yellow solid 5px;
   }
+
+  /* this is giving everything under the div container element a flex display */
 .content-wrap{
     display: flex;
 }
 
+/* This is lining up my text on the left side and shrinking it down to 70% of the page*/
 .about-me{
     text-align: left;
     flex-basis: 70%;
     margin: 0;
 }
 
+/* this is affecting my right aside image size*/
 .right-aside{
     width: 25%;
 }
 
+/* this is affecting my right aside image*/
 .right-aside img{
     width: 70%;
     display: block;
 }
 
-.left-aside section{
-    margin-bottom: 20px;
-}
-
+/* this is affecting the entire div element that has the Horiseon screen shot and github img*/
+/* Horiseon screenshot taken from my website, assets provided by WUSTL Bootcamp*/
+/* GitHub image taken from Kinsta website: https://kinsta.com/knowledgebase/what-is-github/*/
 .img-container{
     display: flex;
     text-align: center;
 }
 
+/* these are affecting both images at the bottom of the page that make them take up about half of the page */
 .my-work,
 .my-work-two{
     flex-basis: 50%;
 }
 
+/* this is affecting the width and height of my first image to make it symmetrical with my second image*/
 .my-work img{
     width: 80%;
     height: 300px;
 }
 
+/* this is affecting the width and height of my second image to make it symmetrical with my first image*/
 .my-work-two img{
     width: 80%;
     height: 300px;
 }
 
+/* This is the banner that runs along the bottom, I gave it the same colors as the header and set some base positioning*/
 .footer{
     background-color: lightgray;
     color: green;
@@ -123,6 +141,7 @@ img:hover {
     padding: 20px, 0;
 }
 
+/* This is styling the contact links on the bottom banner to center them and space them evenly across the page */
 .foot-contact{
     list-style: none;
     padding: 0;
@@ -132,16 +151,19 @@ img:hover {
     width: 100%;
 }
 
+/* This is setting the footer list margin to 0*/
 .foot-contact li{
     margin: 0 20px;
 }
 
+/* This is setting the default color of the font to green for the footer and bolding it, just like in the header */
 .foot-contact a{
     text-decoration: none;
     color: green;
     font-weight: bold;
 }
 
+/* This is making it so if you hover over a footer link it glows pink and is underlined just like in the header*/
 .foot-contact li a:hover{
     text-decoration: underline;
     color: darkmagenta;
