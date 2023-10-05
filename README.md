@@ -16,3 +16,7 @@ The code for this project was fabircated by me, although I did receive some help
 ## ScreenShot
 
 https://i.gyazo.com/d6a717aacc89f767dba98ce4809a2b63.png
+
+## Link
+
+https://mkickham.github.io/Challenge2-Prof-Portfolio/
